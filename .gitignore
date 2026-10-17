@@ -1,0 +1,26 @@
+# Minecraft server directories & heavy runtime files
+world/
+world_nether/
+world_the_end/
+*.log
+logs/
+crash-reports/
+
+# Cache, libraries, builds
+cache/
+libraries/
+versions/
+.paper-nms/
+bundler/
+
+# JAR files (core server engine - лучше скачивать скриптом, чтобы не забивать Git)
+# Если хотите хранить свои плагины в репозитории, можно убрать *.jar из игнора для папки plugins/
+*.jar
+!plugins/*.jar
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
